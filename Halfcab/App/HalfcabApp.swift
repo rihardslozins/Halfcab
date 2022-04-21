@@ -11,7 +11,7 @@ import SwiftUI
 struct HalfcabApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
