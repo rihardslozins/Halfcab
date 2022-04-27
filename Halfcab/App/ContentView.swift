@@ -27,6 +27,12 @@ struct ContentView: View {
                             .frame(height: UIScreen.main.bounds.width / 1.475)
                             .padding(.vertical, 20)
                         
+                        CategoryGridView()
+                        
+                        TitleView(title: "Top Brands")
+                        
+                        BrandGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     } //: End of VStack
