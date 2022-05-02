@@ -13,6 +13,9 @@ let headers: [Header] = Bundle.main.decode("headers.json")
 //Categories
 let categories: [Category] = Bundle.main.decode("categories.json")
 
+//Boards
+let boards: [Board] = Bundle.main.decode("boards.json")
+
 //Brands
 let brands: [Brand] = Bundle.main.decode("brands.json")
 

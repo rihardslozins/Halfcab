@@ -18,7 +18,6 @@ struct SectionView: View {
             
             Text("Categories".uppercased())
                 .font(Font.custom("ProximaNova-Bold", size: 14))
-                .fontWeight(.bold)
                 .foregroundColor(.white)
                 .rotationEffect(Angle(degrees: rotateClockwise ? 90 : -90))
             

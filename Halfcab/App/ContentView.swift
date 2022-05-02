@@ -29,6 +29,14 @@ struct ContentView: View {
                         
                         CategoryGridView()
                         
+                        TitleView(title: "Skateboards")
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            ForEach(boards) { board in
+                                DeckItemView(board: board)
+                            } //: End of Loop
+                        }) //: End of Grid
+                        .padding(15)
+                        
                         TitleView(title: "Top Brands")
                         
                         BrandGridView()

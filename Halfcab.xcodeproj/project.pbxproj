@@ -13,7 +13,7 @@
 		B926417A2811412900645F32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92641792811412900645F32 /* Preview Assets.xcassets */; };
 		B926418A28114ACB00645F32 /* headers.json in Resources */ = {isa = PBXBuildFile; fileRef = B926418628114ACB00645F32 /* headers.json */; };
 		B926418B28114ACB00645F32 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = B926418728114ACB00645F32 /* categories.json */; };
-		B926418C28114ACB00645F32 /* decks.json in Resources */ = {isa = PBXBuildFile; fileRef = B926418828114ACB00645F32 /* decks.json */; };
+		B926418C28114ACB00645F32 /* boards.json in Resources */ = {isa = PBXBuildFile; fileRef = B926418828114ACB00645F32 /* boards.json */; };
 		B926418D28114ACB00645F32 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = B926418928114ACB00645F32 /* brands.json */; };
 		B926419928117AE600645F32 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926419828117AE600645F32 /* SplashScreenView.swift */; };
 		B965A0F12819AAE10015732C /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965A0F02819AAE10015732C /* CategoriesModel.swift */; };
@@ -28,6 +28,8 @@
 		B98684C02811A4D50092321B /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98684BF2811A4D50092321B /* CodableBundleExtension.swift */; };
 		B98684C22811A6290092321B /* HeaderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98684C12811A6290092321B /* HeaderItemView.swift */; };
 		B98684C42811A8880092321B /* HeaderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98684C32811A8880092321B /* HeaderTabView.swift */; };
+		B9A087C9281FC85D001A42C5 /* DeckItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A087C8281FC85D001A42C5 /* DeckItemView.swift */; };
+		B9A087CB281FCF63001A42C5 /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A087CA281FCF63001A42C5 /* BoardModel.swift */; };
 		B9BF2D8828118B0A00422BA3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF2D8728118B0A00422BA3 /* Constant.swift */; };
 		B9BF2D8C2811923E00422BA3 /* ProximaNova-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B92641902811722800645F32 /* ProximaNova-Black.ttf */; };
 		B9BF2D8D2811924500422BA3 /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B92641912811722800645F32 /* ProximaNova-Bold.ttf */; };
@@ -48,7 +50,7 @@
 		B92641792811412900645F32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B926418628114ACB00645F32 /* headers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = headers.json; sourceTree = "<group>"; };
 		B926418728114ACB00645F32 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
-		B926418828114ACB00645F32 /* decks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = decks.json; sourceTree = "<group>"; };
+		B926418828114ACB00645F32 /* boards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boards.json; sourceTree = "<group>"; };
 		B926418928114ACB00645F32 /* brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brands.json; sourceTree = "<group>"; };
 		B926418F2811722800645F32 /* ProximaNova-Extrabld.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabld.ttf"; sourceTree = "<group>"; };
 		B92641902811722800645F32 /* ProximaNova-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.ttf"; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 		B98684BF2811A4D50092321B /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		B98684C12811A6290092321B /* HeaderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderItemView.swift; sourceTree = "<group>"; };
 		B98684C32811A8880092321B /* HeaderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTabView.swift; sourceTree = "<group>"; };
+		B9A087C8281FC85D001A42C5 /* DeckItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckItemView.swift; sourceTree = "<group>"; };
+		B9A087CA281FCF63001A42C5 /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 		B9BF2D8728118B0A00422BA3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		B9BF2D922811969700422BA3 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		B9BF2D94281197AF00422BA3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
@@ -152,7 +156,7 @@
 				B926418928114ACB00645F32 /* brands.json */,
 				B926418728114ACB00645F32 /* categories.json */,
 				B926418628114ACB00645F32 /* headers.json */,
-				B926418828114ACB00645F32 /* decks.json */,
+				B926418828114ACB00645F32 /* boards.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -171,6 +175,7 @@
 				B98684BD2811A45C0092321B /* HeaderModel.swift */,
 				B965A0F02819AAE10015732C /* CategoriesModel.swift */,
 				B965A0F82819C5700015732C /* BrandModel.swift */,
+				B9A087CA281FCF63001A42C5 /* BoardModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				B965A0FA2819C6090015732C /* BrandItemView.swift */,
 				B965A0FC2819C7230015732C /* BrandGridView.swift */,
 				B965A0FE2819C8450015732C /* TitleView.swift */,
+				B9A087C8281FC85D001A42C5 /* DeckItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -282,7 +288,7 @@
 				B9BF2D8C2811923E00422BA3 /* ProximaNova-Black.ttf in Resources */,
 				B9BF2D912811924F00422BA3 /* ProximaNova-Semibold.ttf in Resources */,
 				B926418B28114ACB00645F32 /* categories.json in Resources */,
-				B926418C28114ACB00645F32 /* decks.json in Resources */,
+				B926418C28114ACB00645F32 /* boards.json in Resources */,
 				B926418D28114ACB00645F32 /* brands.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +315,8 @@
 				B9BF2D9828119D1B00422BA3 /* FooterView.swift in Sources */,
 				B98684C22811A6290092321B /* HeaderItemView.swift in Sources */,
 				B965A0FF2819C8450015732C /* TitleView.swift in Sources */,
+				B9A087CB281FCF63001A42C5 /* BoardModel.swift in Sources */,
+				B9A087C9281FC85D001A42C5 /* DeckItemView.swift in Sources */,
 				B98684BE2811A45C0092321B /* HeaderModel.swift in Sources */,
 				B965A0F32819AECF0015732C /* CategoryItemView.swift in Sources */,
 				B9BF2D8828118B0A00422BA3 /* Constant.swift in Sources */,
@@ -369,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

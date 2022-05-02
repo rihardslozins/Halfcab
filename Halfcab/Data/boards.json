@@ -1,0 +1,57 @@
+[{
+        "id": 1,
+        "name": "CHOP HOP NOH",
+        "image": "CHOP-HOP-NOH",
+        "price": 109,
+        "description": "Jor Ros grew up moving back and forth between Mexico and the U.S. and would spend his free time making up characters and creating fictional universes though his drawings. Today, the Barcelona-based artist has developed a portfolio of digital illustrations that imagine the contemporary urban samurai warrior, borrowing the motifs and aesthetic hallmarks of traditional Japanese folklore and American cartoons through a warm, eye grabbing palette. We’re stoked to introduce Jor as our latest featured Artist, and bring some unique Far East style to Sector 9’s West Coast craftsmanship."
+    },
+    {
+        "id": 2,
+        "name": "JAMMER COBRA",
+        "image": "JAMMER-COBRA",
+        "price": 149,
+        "description": "Never worried. Never hurried. These are words to live by if there ever were. Life can be hectic, and there’s no better way to de-stress than hopping on your board and hitting the streets. The new Chomp Brand Collection wholly embraces taking life one push at a time with some clever graphics by Joshua Ariza and added treatments like matte bottom graphics, and cloudy swirled Nineball wheels. With shapes like the Jammer, Roundhouse and Bintang, this collection is truly the perfect “skate everything” quiver. Why grab one when you can grab them all!?!"
+    },
+    {
+        "id": 3,
+        "name": "CHOP HOP CHARGE",
+        "image": "CHOP-HOP-CHARGE",
+        "price": 159,
+        "description": "Our newest featured artist is primed to take us on a journey to the blackness of space, and the horrors that awaits. We’re stoked to introduce our latest artist collection from Brazilian illustrator, Pedro Correa. His work can be found in everything from magazines, to gig posters, to museum galleries, and now gracing his own Sector 9 collection. We’ve chosen Pedro’s super detailed visions of terror from the depths of outer space in his signature, muted color palette for a well-rounded quiver of shapes in the Chop Hop, Fractal and Dropper. The blackness of ocean depths meets the blackness of uncharted space in these all new anxiety-inducing graphics. Makes us wonder what’s really out there!"
+    },
+    {
+        "id": 4,
+        "name": "BOSS ROSS PRO BLAZE",
+        "image": "BOSS-ROSS-PRO-BLAZE",
+        "price": 169,
+        "description": "The next installment of our signature series delivers two pro models that make you want to send it, whatever your style. For this series we tapped epic illustrator Juan Marante aka @elgrantocayo for some high heat artwork. With the Boss Blaze Pro model taking cues from some of our favorite 80’s shapes all the way down to the hardware, it will take you places you didn’t know you wanted to go. Along with the jaw dropping graphics the Riha Diver Pro comes with some updated length and width, making it possible to go deeper than ever no matter the conditions."
+    },
+    {
+        "id": 5,
+        "name": "MASON PRO DANGER",
+        "image": "MASON-PRO-DANGER",
+        "price": 163,
+        "description": "It’s all positive vibes on these colorful rides. The Signature Collection is back with new graphics for Tia Blanco, Mason Ho and Ben Gravy on their trusted Pro Model shapes. Black and white illustrations by Daniel Sheridan pop off trippy, hazy colored backgrounds, accented by fully dipped black decks. Maintain peaceful thoughts and calming sessions with the Tia Pro Zen. Live on the edge while smashing curbs, rails and driveways with the Mason Pro Danger. Take a trip, chart new paths, and live the dream with the Gravy Semi-Pro Barge. No matter what shape suits your vibe, it’s sure to be a journey."
+    },
+    {
+        "id": 6,
+        "name": "FAT WAVE FOSSIL PRO",
+        "image": "FAT-WAVE-FOSSIL",
+        "price": 185,
+        "description": "It’s time to broaden your perspective with a trip down below, to The Deep. Our friend Nate Reifke, a.k.a. Salty Timbers, is back with some mind-bending graphics from the abyss for the all new The Deep Collection. Reach to the depths of your senses, with Nate’s signature style of black and white illustration positioned over colorful splattered backdrops. To top it off, or should we say bottom it off, we’ve taken these boards even deeper with exposed Black Burle veneers. While you’re all probably familiar with the Fat Wave and Fault Line shapes, we’re also introducing the Strand for the first time ever in a 7 ply Maple construction. Some vivid graphics on some solid shapes are sure to make all your trips wild with The Deep Collection."
+    },
+    {
+        "id": 7,
+        "name": "CASCADE NINETY FIVE",
+        "image": "CASCADE-NINETY-FIVE",
+        "price": 175,
+        "description": "This season, we're proud to introduce our latest artist and photographer, Travis Burke. He is an accomplished photographer, athlete, public speaker and explorer. Growing up passionate about skateboarding and surfing in San Diego, California, Travis has always been known to push the boundaries of his crafts. We're super stoked to highlight some of his amazing travel imagery on some truly unique skateboards, and welcome him to the Sector 9 family."
+    },
+    {
+        "id": 8,
+        "name": "JIMMY RIHA PRO DIVER",
+        "image": "JIMMY-RIHA-PRO-DIVER",
+        "price": 179,
+        "description": "The next installment of our signature series delivers two pro models that make you want to send it, whatever your style. For this series we tapped epic illustrator Juan Marante aka @elgrantocayo for some high heat artwork. With the Boss Ross Blaze Pro model taking cues from some of our favorite 80’s shapes all the way down to the hardware, it will take you places you didn’t know you wanted to go. Along with the jaw dropping graphics the Riha Diver Pro comes with some updated length and width, making it possible to go deeper than ever no matter the conditions."
+    }
+]
