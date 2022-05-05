@@ -154,8 +154,8 @@
 		B92641812811415C00645F32 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B9EAF84028244BB80040AA16 /* Detail */,
 				B9BF2D8928118DFB00422BA3 /* Home */,
+				B9EAF84028244BB80040AA16 /* Detail */,
 			);
 			path = View;
 			sourceTree = "<group>";

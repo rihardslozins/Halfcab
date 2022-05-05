@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct NavigationBarDetailView: View {
+    // MARK: - Properties
+    
+    // MARK: - Body
     var body: some View {
         HStack {
             Button(action: {}, label: {
@@ -26,6 +29,7 @@ struct NavigationBarDetailView: View {
     }
 }
 
+// MARK: - Preview
 struct NavigationBarDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationBarDetailView()
