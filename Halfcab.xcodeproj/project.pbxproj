@@ -40,6 +40,10 @@
 		B9BF2D932811969700422BA3 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF2D922811969700422BA3 /* NavigationBarView.swift */; };
 		B9BF2D95281197AF00422BA3 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF2D94281197AF00422BA3 /* LogoView.swift */; };
 		B9BF2D9828119D1B00422BA3 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF2D9728119D1B00422BA3 /* FooterView.swift */; };
+		B9EAF83D282448320040AA16 /* BoardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAF83C282448320040AA16 /* BoardDetailView.swift */; };
+		B9EAF83F28244A190040AA16 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAF83E28244A190040AA16 /* NavigationBarDetailView.swift */; };
+		B9EAF84228244BEC0040AA16 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAF84128244BEC0040AA16 /* HeaderDetailView.swift */; };
+		B9EAF84428244D2F0040AA16 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EAF84328244D2F0040AA16 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +82,10 @@
 		B9BF2D922811969700422BA3 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		B9BF2D94281197AF00422BA3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		B9BF2D9728119D1B00422BA3 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		B9EAF83C282448320040AA16 /* BoardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetailView.swift; sourceTree = "<group>"; };
+		B9EAF83E28244A190040AA16 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		B9EAF84128244BEC0040AA16 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		B9EAF84328244D2F0040AA16 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,7 @@
 				B92641722811412700645F32 /* HalfcabApp.swift */,
 				B92641742811412700645F32 /* ContentView.swift */,
 				B926419828117AE600645F32 /* SplashScreenView.swift */,
+				B9EAF83C282448320040AA16 /* BoardDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -145,6 +154,7 @@
 		B92641812811415C00645F32 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B9EAF84028244BB80040AA16 /* Detail */,
 				B9BF2D8928118DFB00422BA3 /* Home */,
 			);
 			path = View;
@@ -218,6 +228,16 @@
 				B9A087C8281FC85D001A42C5 /* DeckItemView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		B9EAF84028244BB80040AA16 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B9EAF83E28244A190040AA16 /* NavigationBarDetailView.swift */,
+				B9EAF84128244BEC0040AA16 /* HeaderDetailView.swift */,
+				B9EAF84328244D2F0040AA16 /* TopPartDetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,10 +328,14 @@
 				B92641732811412700645F32 /* HalfcabApp.swift in Sources */,
 				B9BF2D932811969700422BA3 /* NavigationBarView.swift in Sources */,
 				B965A0F12819AAE10015732C /* CategoriesModel.swift in Sources */,
+				B9EAF84228244BEC0040AA16 /* HeaderDetailView.swift in Sources */,
+				B9EAF84428244D2F0040AA16 /* TopPartDetailView.swift in Sources */,
 				B926419928117AE600645F32 /* SplashScreenView.swift in Sources */,
 				B9BF2D95281197AF00422BA3 /* LogoView.swift in Sources */,
+				B9EAF83F28244A190040AA16 /* NavigationBarDetailView.swift in Sources */,
 				B965A0FD2819C7230015732C /* BrandGridView.swift in Sources */,
 				B98684C42811A8880092321B /* HeaderTabView.swift in Sources */,
+				B9EAF83D282448320040AA16 /* BoardDetailView.swift in Sources */,
 				B9BF2D9828119D1B00422BA3 /* FooterView.swift in Sources */,
 				B98684C22811A6290092321B /* HeaderItemView.swift in Sources */,
 				B965A0FF2819C8450015732C /* TitleView.swift in Sources */,

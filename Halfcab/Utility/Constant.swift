@@ -19,6 +19,8 @@ let boards: [Board] = Bundle.main.decode("boards.json")
 //Brands
 let brands: [Brand] = Bundle.main.decode("brands.json")
 
+let sampleBoards: Board = boards[0]
+
 //Colors
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color("ColorGray")
