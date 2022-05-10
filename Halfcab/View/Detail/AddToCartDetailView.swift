@@ -11,7 +11,9 @@ import SwiftUI
 // MARK: - Body
 struct AddToCartDetailView: View {
     var body: some View {
-        Button(action: {}, label: {
+        Button(action: {
+            feedback.impactOccurred()
+        }, label: {
             Spacer()
             Text("Add to cart".uppercased())
                 .font(Font.custom("ProximaNova-Semibold", size: 16))

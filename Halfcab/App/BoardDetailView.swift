@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BoardDetailView: View {
     // MARK: - Properties
+    @EnvironmentObject var eshop: EShop
     
     // MARK: - Body
     var body: some View {
@@ -31,17 +32,17 @@ struct BoardDetailView: View {
             VStack (alignment: .center, spacing: 0, content: {
                 // Ratings + Sizes
                 RatingsSizesDetailView()
-                    .padding(.top)
+                    .padding(.top, -5)
                     .padding(.bottom, 20)
                 
                 // Description
                 ScrollView (.vertical, showsIndicators: false, content: {
-                    Text(sampleBoards.description)
-                        .font(Font.custom("ProximaNova-Regular", size: 14))
+                    Text(eshop.selectedProduct?.description ?? sampleBoards.description)
+                        .font(Font.custom("ProximaNova-Regular", size: 16))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.leading)
                 }) // End of ScrollView
-
+                
                 
                 // Quantity + Favourite
                 QuantityFavouriteDetailView()
@@ -69,6 +70,7 @@ struct BoardDetailView: View {
 struct BoardDetailView_Previews: PreviewProvider {
     static var previews: some View {
         BoardDetailView()
+            .environmentObject(EShop())
             .previewLayout(.fixed(width: 375, height: 812))
     }
 }

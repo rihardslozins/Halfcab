@@ -18,7 +18,7 @@ struct RatingsSizesDetailView: View {
             // Ratings
             VStack(alignment: .leading, spacing: 3, content: {
                 Text("User rating")
-                    .font(Font.custom("ProximaNova-SemiBold", size: 12))
+                    .font(Font.custom("ProximaNova-SemiBold", size: 14))
                     .foregroundColor(.white)
                 
                 HStack(alignment: .center, spacing: 3, content: {
@@ -38,7 +38,7 @@ struct RatingsSizesDetailView: View {
             // Sizes
             VStack(alignment: .trailing, spacing: 3, content: {
                 Text("Board size")
-                    .font(Font.custom("ProximaNova-SemiBold", size: 12))
+                    .font(Font.custom("ProximaNova-SemiBold", size: 14))
                     .foregroundColor(.white)
                 
                 HStack(alignment: .center, spacing: 5, content: {

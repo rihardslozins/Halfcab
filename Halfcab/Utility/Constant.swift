@@ -27,6 +27,9 @@ let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color("ColorGray")
 let colorRed: Color = Color("ColorRed")
 
+// UX
+let feedback = UIImpactFeedbackGenerator(style: .medium)
+
 // Layout
 let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10
