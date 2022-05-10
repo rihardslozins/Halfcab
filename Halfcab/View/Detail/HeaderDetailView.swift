@@ -19,7 +19,7 @@ struct HeaderDetailView: View {
             Text(sampleBoards.name)
                 .font(Font.custom("ProximaNova-Black", size: 28))
                 .foregroundColor(.black)
-        }) //: End of VStack
+        }) // End of VStack
     }
 }
 

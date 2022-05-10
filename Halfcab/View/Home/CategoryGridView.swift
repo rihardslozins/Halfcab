@@ -22,11 +22,11 @@ struct CategoryGridView: View {
                         CategoryItemView(category: category)
                     }
                 }
-            }) //: End of Grid
+            }) // End of Grid
             .frame(height: 140)
             .padding(.horizontal, 15)
             .padding(.vertical, 10)
-        }) //: End of Scroll
+        }) // End of Scroll
     }
 }
 

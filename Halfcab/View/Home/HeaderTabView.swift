@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HeaderTabView: View {
+    // MARK: - Properties
+    
+    // MARK: - Body
     var body: some View {
         TabView {
             ForEach(headers) { header in HeaderItemView(header: header)
@@ -15,11 +18,12 @@ struct HeaderTabView: View {
                     .padding(.horizontal, 15)
                 
             }
-        } //: End of TabView
+        } // End of TabView
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
     }
 }
 
+// MARK: - Preview
 struct HeaderTabView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderTabView()

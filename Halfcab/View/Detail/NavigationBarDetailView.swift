@@ -25,7 +25,7 @@ struct NavigationBarDetailView: View {
                     .font(.title)
                     .foregroundColor(.black)
             })
-        } //: End of HStack
+        } // End of HStack
     }
 }
 

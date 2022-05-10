@@ -7,19 +7,19 @@
 
 import SwiftUI
 
-//Headers
+// Headers
 let headers: [Header] = Bundle.main.decode("headers.json")
 
-//Categories
+// Categories
 let categories: [Category] = Bundle.main.decode("categories.json")
 
-//Boards
+// Boards
 let boards: [Board] = Bundle.main.decode("boards.json")
 
-//Brands
+// Brands
 let brands: [Brand] = Bundle.main.decode("brands.json")
 
-//First board for product detail view
+// First board for product detail view
 let sampleBoards: Board = boards[0]
 
 //Colors
@@ -27,7 +27,7 @@ let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color("ColorGray")
 let colorRed: Color = Color("ColorRed")
 
-//Layout
+// Layout
 let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10
 var gridLayout: [GridItem] {

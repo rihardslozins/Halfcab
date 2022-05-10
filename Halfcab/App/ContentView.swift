@@ -33,8 +33,8 @@ struct ContentView: View {
                         LazyVGrid(columns: gridLayout, spacing: 15, content: {
                             ForEach(boards) { board in
                                 DeckItemView(board: board)
-                            } //: End of Loop
-                        }) //: End of Grid
+                            } // End of Loop
+                        }) // End of Grid
                         .padding(15)
                         
                         TitleView(title: "Top Brands")
@@ -43,11 +43,11 @@ struct ContentView: View {
                         
                         FooterView()
                             .padding(.horizontal)
-                    } //: End of VStack
-                }) //: End of ScrollView
-            } //: End of VStack
+                    } // End of VStack
+                }) // End of ScrollView
+            } // End of VStack
             .background(colorGray.ignoresSafeArea(.all, edges: .all))
-        } //: End of ZStack
+        } // End of ZStack
         .ignoresSafeArea(.all, edges: .top)
     }
 }

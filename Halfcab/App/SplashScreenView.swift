@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+// MARK: - Properties
 struct SplashScreenView: View {
     @State private var isActive = false
     @State private var size = 0.8
     @State private var opacitiy = 0.5
     
+    // MARK: - Body
     var body: some View {
         if isActive {
             ContentView()
@@ -21,7 +23,7 @@ struct SplashScreenView: View {
                     Image("hc-logo")
                         .resizable()
                         .frame(width: 200.0, height: 70.0)
-                } //: End of VStack
+                } // End of VStack
                 .scaleEffect(size)
                 .opacity(opacitiy)
                 .onAppear() {
@@ -37,11 +39,12 @@ struct SplashScreenView: View {
                         }
                     }
                 }
-            } //: End of VStack
+            } // End of VStack
         }
     }
 }
 
+// MARK: - Preview
 struct SplashScreenView_Previews: PreviewProvider {
     static var previews: some View {
         SplashScreenView()

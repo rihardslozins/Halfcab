@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FooterView: View {
+    // MARK: - Properties
+    
     // MARK: - Body
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
@@ -24,7 +26,7 @@ struct FooterView: View {
                 .font(Font.custom("ProximaNova-Semibold", size: 12))
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
-        } //: End of VStack
+        } // End of VStack
         .padding()
     }
 }

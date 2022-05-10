@@ -22,7 +22,7 @@ struct SectionView: View {
                 .rotationEffect(Angle(degrees: rotateClockwise ? 90 : -90))
             
             Spacer()
-        } //: End of VStack
+        } // End of VStack
         .background(colorRed.cornerRadius(12))
         .frame(width: 85)
     }

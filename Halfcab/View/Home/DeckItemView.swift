@@ -22,14 +22,14 @@ struct DeckItemView: View {
                     .background(Color.white.cornerRadius(12))
                     .background(
                         RoundedRectangle(cornerRadius: 12).stroke(Color.gray, lineWidth: 1))
-            } //: End of ZStack
+            } // End of ZStack
             Text(board.name)
                 .font(Font.custom("ProximaNova-Black", size: 20))
             
             Text("€\(board.price)")
                 .font(Font.custom("ProximaNova-Regular", size: 18))
                 .foregroundColor(.gray)
-        }) //: End of VStack
+        }) // End of VStack
     }
 }
 

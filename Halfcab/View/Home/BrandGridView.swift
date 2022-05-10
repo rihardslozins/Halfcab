@@ -17,10 +17,10 @@ struct BrandGridView: View {
                 ForEach(brands) { brand in
                     BrandItemView(brand: brand)
                 }
-            }) //: End of Grid
+            }) // End of Grid
             .frame(height: 200)
             .padding(15)
-        }) //: End of Scroll
+        }) // End of Scroll
     }
 }
 

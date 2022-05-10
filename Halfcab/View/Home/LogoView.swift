@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LogoView: View {
+    // MARK: - Properties
     
     // MARK: - Body
     var body: some View {
@@ -15,7 +16,7 @@ struct LogoView: View {
             Text(".halfcab")
                 .font(Font.custom("ProximaNova-Bold", size: 24))
                 .foregroundColor(colorRed)
-        } //: End of HStack
+        } // End of HStack
     }
 }
 

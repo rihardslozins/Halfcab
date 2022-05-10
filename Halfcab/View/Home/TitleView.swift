@@ -18,7 +18,7 @@ struct TitleView: View {
                 .font(Font.custom("ProximaNova-Black", size: 32))
             
             Spacer()
-        } //: End of HStack
+        } // End of HStack
         .padding(.horizontal)
         .padding(.top, 10)
         .padding(.bottom, 10)

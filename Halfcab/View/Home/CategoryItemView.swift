@@ -27,14 +27,14 @@ struct CategoryItemView: View {
                     .foregroundColor(.gray)
                 
                 Spacer()
-            } //: End of HStack
+            } // End of HStack
             .padding()
             .background(Color.white.cornerRadius(12))
             .background(
                 RoundedRectangle(cornerRadius: 12)
                     .stroke(Color.gray, lineWidth: 1)
             )
-        }) //: End of Button
+        }) // End of Button
     }
 }
 

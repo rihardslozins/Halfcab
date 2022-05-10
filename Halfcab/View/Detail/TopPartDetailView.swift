@@ -34,7 +34,7 @@ struct TopPartDetailView: View {
                 .resizable()
                 .scaledToFit()
                 .offset(y: isAnimating ? 0 : -35)
-        }) //: End of HStack
+        }) // End of HStack
         .onAppear(perform: {
             withAnimation(.easeOut(duration: 0.75)) {
                 isAnimating.toggle()

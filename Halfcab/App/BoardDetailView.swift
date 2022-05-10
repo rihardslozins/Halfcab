@@ -25,20 +25,42 @@ struct BoardDetailView: View {
             // Detail Top Part
             TopPartDetailView()
                 .padding(.horizontal)
+                .zIndex(1)
             
             // Detail Bottom Part
+            VStack (alignment: .center, spacing: 0, content: {
+                // Ratings + Sizes
+                RatingsSizesDetailView()
+                    .padding(.top)
+                    .padding(.bottom, 20)
+                
+                // Description
+                ScrollView (.vertical, showsIndicators: false, content: {
+                    Text(sampleBoards.description)
+                        .font(Font.custom("ProximaNova-Regular", size: 14))
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.leading)
+                }) // End of ScrollView
+
+                
+                // Quantity + Favourite
+                QuantityFavouriteDetailView()
+                    .padding(.vertical, 10)
+                
+                // Add To Cart
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
+                
+            }) // End of VStack
+            .padding(.horizontal)
+            .background(
+                colorRed
+                    .clipShape(CustomShape())
+                    .padding(.top, -105)
+            )
             
-            // Ratings + Sizes
-            
-            // Description
-            
-            // Quantity + Favourite
-            
-            // Add To Cart
-            
-            Spacer()
-            
-        }) //: End of VStack
+        }) // End of VStack
+        .zIndex(0)
         .ignoresSafeArea(.all, edges: .all)
     }
 }

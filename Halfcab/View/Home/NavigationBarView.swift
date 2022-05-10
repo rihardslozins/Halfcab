@@ -18,7 +18,7 @@ struct NavigationBarView: View {
                 Image(systemName: "magnifyingglass")
                     .font(.title)
                     .foregroundColor(.black)
-            }) //: End of Button
+            }) // End of Button
             
             Spacer()
             
@@ -44,8 +44,8 @@ struct NavigationBarView: View {
                         .frame(width: 14, height: 14, alignment: .center)
                         .offset(x: 13, y: -10)
                 }
-            }) //: End of Button
-        } //: End of HStack
+            }) // End of Button
+        } // End of HStack
     }
 }
 // MARK: - Preview
