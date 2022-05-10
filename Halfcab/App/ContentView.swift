@@ -27,7 +27,7 @@ struct ContentView: View {
                         VStack(spacing: 0){
                             HeaderTabView()
                                 .frame(height: UIScreen.main.bounds.width / 1.475)
-                                .padding(.vertical, 20)
+                                .padding(.vertical, 0)
                             
                             CategoryGridView()
                             
