@@ -15,7 +15,7 @@ struct NavigationBarView: View {
     var body: some View {
         HStack {
             Button(action: {}, label: {
-                Image(systemName: "magnifyingglass")
+                Image(systemName: "line.3.horizontal")
                     .font(.title)
                     .foregroundColor(.black)
             }) // End of Button
