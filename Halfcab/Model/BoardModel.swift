@@ -14,5 +14,5 @@ struct Board: Codable, Identifiable {
     let image: String
     let description: String
     
-    var formattedPrice: String { return "$\(price)" }
+    var formattedPrice: String { return "€\(price)" }
 }
