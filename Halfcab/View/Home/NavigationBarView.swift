@@ -10,6 +10,7 @@ import SwiftUI
 struct NavigationBarView: View {
     // MARK: - Properties
     @State private var isAnimated: Bool = false
+    @EnvironmentObject var sessionService: SessionServiceImplementation
     
     // MARK: - Body
     var body: some View {
@@ -33,16 +34,12 @@ struct NavigationBarView: View {
             
             Spacer()
             
-            Button(action: {}, label: {
+            Button(action: {sessionService.logout()}, label: {
                 ZStack {
-                    Image(systemName: "cart")
-                        .font(.title)
-                        .foregroundColor(.black)
-                    
-                    Circle()
-                        .fill(Color.red)
-                        .frame(width: 14, height: 14, alignment: .center)
-                        .offset(x: 13, y: -10)
+                    Image(systemName: "rectangle.portrait.and.arrow.right")
+                        .resizable()
+                        .frame(width: 24.0, height: 24.0)
+                        .foregroundColor(Color.black)
                 }
             }) // End of Button
         } // End of HStack

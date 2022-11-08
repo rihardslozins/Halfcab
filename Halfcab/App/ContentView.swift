@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     // MARK: - Properties
     @EnvironmentObject var eshop: EShop
+    @EnvironmentObject var sessionService: SessionServiceImplementation
     
     // MARK: - Body
     var body: some View {
@@ -69,5 +70,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(EShop())
+            .environmentObject(SessionServiceImplementation())
     }
 }
