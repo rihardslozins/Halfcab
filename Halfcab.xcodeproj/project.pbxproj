@@ -261,12 +261,12 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		B96B48342901445D00F34D22 /* SignUp */ = {
+		B96B48342901445D00F34D22 /* SignUpView */ = {
 			isa = PBXGroup;
 			children = (
 				B96B4835290144CC00F34D22 /* SignUpView.swift */,
 			);
-			path = SignUp;
+			path = SignUpView;
 			sourceTree = "<group>";
 		};
 		B96B48392901623A00F34D22 /* Service */ = {
@@ -297,7 +297,7 @@
 				B96B483E290178A200F34D22 /* Model */,
 				B96B48392901623A00F34D22 /* Service */,
 				B9BADF1528F5C2680051F3E4 /* LoginView */,
-				B96B48342901445D00F34D22 /* SignUp */,
+				B96B48342901445D00F34D22 /* SignUpView */,
 				B9BADF1B28F5C76C0051F3E4 /* Detail */,
 			);
 			path = LogInAndSignUp;
