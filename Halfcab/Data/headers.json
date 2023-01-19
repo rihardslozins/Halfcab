@@ -1,0 +1,18 @@
+[
+  {
+    "id" : 1,
+    "image" : "skate-header"
+  },
+  {
+    "id" : 2,
+    "image" : "snow-header"
+  },
+  {
+    "id" : 3,
+    "image" : "surf-header"
+  },
+  {
+    "id" : 4,
+    "image" : "wake-header"
+  }
+]

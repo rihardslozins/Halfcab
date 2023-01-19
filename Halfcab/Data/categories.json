@@ -1,0 +1,162 @@
+[
+  {
+    "id" : 1,
+    "name" : "Skate Decks",
+    "image" : "Decks"
+  },
+  {
+    "id" : 2,
+    "name" : "Longboards",
+    "image" : "Longboards"
+  },
+  {
+    "id" : 3,
+    "name" : "Cruise Boards",
+    "image" : "Cruise"
+  },
+  {
+    "id" : 4,
+    "name" : "Completes",
+    "image" : "Complete-Skateboards"
+  },
+  {
+    "id" : 5,
+    "name" : "Trucks",
+    "image" : "Trucks"
+  },
+  {
+    "id" : 6,
+    "name" : "Wheels",
+    "image" : "Wheels"
+  },
+  {
+    "id" : 7,
+    "name" : "Bearings",
+    "image" : "Bearings"
+  },
+  {
+    "id" : 8,
+    "name" : "Griptape",
+    "image" : "Griptape"
+  },
+  {
+    "id" : 9,
+    "name" : "Skate Shoes",
+    "image" : "Skate-Shoes"
+  },
+  {
+    "id" : 10,
+    "name" : "Sneakers",
+    "image" : "Sneakers"
+  },
+  {
+    "id" : 11,
+    "name" : "Slip On Sneakers",
+    "image" : "Slip-On-Sneakers"
+  },
+  {
+    "id" : 12,
+    "name" : "High Sneakers",
+    "image" : "High-Top-Sneakers"
+  },
+  {
+    "id" : 13,
+    "name" : "Low Sneakers",
+    "image" : "Low-Top-Sneakers"
+  },
+  {
+    "id" : 14,
+    "name" : "Mid Sneakers",
+    "image" : "Mid-Top-Sneakers"
+  },
+  {
+    "id" : 15,
+    "name" : "Winter Shoes",
+    "image" : "Winter-Shoes"
+  },
+  {
+    "id" : 16,
+    "name" : "T-Shirts",
+    "image" : "T-Shirts"
+  },
+  {
+    "id" : 17,
+    "name" : "Hoodies",
+    "image" : "Hoodies"
+  },
+  {
+    "id" : 18,
+    "name" : "Long Sleeves",
+    "image" : "Long-Sleeves"
+  },
+  {
+    "id" : 19,
+    "name" : "Shirts",
+    "image" : "Shirts"
+  },
+  {
+    "id" : 20,
+    "name" : "Pants",
+    "image" : "Pants"
+  },
+  {
+    "id" : 21,
+    "name" : "Shorts",
+    "image" : "Shorts"
+  },
+  {
+    "id" : 22,
+    "name" : "Zip Hoodies",
+    "image" : "Zip-Hoodies"
+  },
+  {
+    "id" : 23,
+    "name" : "Polo Shirts",
+    "image" : "Polo-Shirts"
+  },
+  {
+    "id" : 24,
+    "name" : "Backpacks",
+    "image" : "Backpacks"
+  },
+  {
+    "id" : 25,
+    "name" : "Bags",
+    "image" : "Bags"
+  },
+  {
+    "id" : 26,
+    "name" : "Beanies",
+    "image" : "Beanies"
+  },
+  {
+    "id" : 27,
+    "name" : "Belts",
+    "image" : "Belts"
+  },
+  {
+    "id" : 28,
+    "name" : "Caps",
+    "image" : "Caps"
+  },
+  {
+    "id" : 29,
+    "name" : "Gloves & Scarfs",
+    "image" : "Gloves-Scarfs"
+  },
+  {
+    "id" : 30,
+    "name" : "Sunglassess",
+    "image" : "Sunglassess"
+  },
+  {
+    "id" : 31,
+    "name" : "Wallets",
+    "image" : "Wallets"
+  },
+  {
+    "id" : 32,
+    "name" : "Socks",
+    "image" : "Socks"
+  }
+]

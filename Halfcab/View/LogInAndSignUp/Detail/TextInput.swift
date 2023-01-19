@@ -21,6 +21,7 @@ struct TextInput: View {
     var body: some View {
         TextField(placeholder, text: $placeholderText)
             .disableAutocorrection(true)
+            .autocapitalization(.none)
             .frame(maxWidth: .infinity, minHeight: 64)
             .padding(.leading, icon == nil ? textFieldSymbol / 2 : textFieldSymbol)
             .keyboardType(keyboardType)

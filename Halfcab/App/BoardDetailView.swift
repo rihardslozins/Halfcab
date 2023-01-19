@@ -44,7 +44,7 @@ struct BoardDetailView: View {
                 }) // End of ScrollView
                 
                 
-                // Quantity + Favourite
+                // Quantity + Favorite
                 QuantityFavouriteDetailView()
                     .padding(.vertical, 10)
                 
